@@ -1,2 +1,2 @@
-# fruitpacker
-Basic open-source automatic drum kit extractor for FL Studio
+# ZEKKIE's FRUITPACKER
+Ill work on this tommorow. 😴
