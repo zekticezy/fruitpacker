@@ -14,7 +14,7 @@ When setup is done, just drag and drop a drum kit .zip file into the program, si
 # Contribute to Fruitpacker
 You can help make Fruitpacker better! (Hence why it's open-source). You can clone this repository, make your own changes and I can merge them over with the real thing if i like what you've made :) 
 ## I want to help translate Fruitpacker!
-Currently, Fruitpacker is only available in the languages I speak - **English** & **French**. If you want to help this program become more accessible to people worldwide by translating it in languages you know, check out the [official repository for Fruitpacker translations]()!
+Currently, Fruitpacker is only available in the languages I speak - **English** & **French**. If you want to help this program become more accessible to people worldwide by translating it in languages you know, check out the [official repository for Fruitpacker translations](https://github.com/zekticezy/fruitpacker-translation-portal/)!
 
 ### Current State of translations
 | Language      | Status |
