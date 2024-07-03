@@ -4,12 +4,14 @@
 # Download Fruitpacker
 You can download **Fruitpacker** for Windows (*64 & 32Bit*) and macOS [here](https://zekkie.dev/fruitpacker.html).
 
-# How Fruitpacker works
+Upon download, extract the .zip and head to `dist\fruitpacker`. Open up `fruitpacker.exe`. Volià!
+
+# How Fruitpacker Works
 It's pretty simple - Setup might take a bit of time, but it'll all be worth it in the end.
 
-**Upon installation and first time launching**, Fruitpacker will ask you to locate where you keep all your samples (like *808s*, *Hi-Hats*, *Snares*, etc.). You'll have to assign each folder separately so the program knows what goes where. Once done, it'll save and remember everything in a little *.txt* file saved on your computer (located in C:\Users\YourName\AppData\Fruitpacker\.) If you want to make any changes (whether it be moved folders or a new type available), just click on the top > 'Settings' > 'Change Folder Settings'. 
+**Upon launching**, you'll have to go to Settings > Preferences and set your respective folders for your files.
 
-When setup is done, just drag and drop a drum kit .zip file into the program, sit back and relax. Everything is done for you! Give it a few minutes though, depending on how good your computer's CPU is :3.
+When setup is done, just click on "Select Compressed File", select your **.zip/.7z** file, press on "Extract and Sort", sit back and relax. Everything is done for you! Give it a few seconds though, depending on how good your computer's CPU is :3.
 
 # Contribute to Fruitpacker
 You can help make Fruitpacker better! (Hence why it's open-source). You can clone this repository, make your own changes and I can merge them over with the real thing if i like what you've made :) 
@@ -20,5 +22,5 @@ Currently, Fruitpacker is only available in the languages I speak - **English** 
 | Language      | Status |
 | ----------- | ----------- |
 | English 🇺🇸      | 100%       |
-| Français 🇫🇷   | 100%       |
+| Français 🇫🇷   | In the works, coming with 1.0      |
 
