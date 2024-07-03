@@ -1,4 +1,4 @@
-![Fruitpacker logo]()
+![Fruitpacker logo](https://zekkie.dev/img/Fruitpacker/Untitled440_20230928121909.png)
 **Fruitpacker** (or *zekkie's fruitpacker*) is a tiny little Python project I made that auto extracts drum kit files from .zips into FL Studio. I basically made this since I'm both a programmer and a music producer, and lazy too :P
 
 # Download Fruitpacker
