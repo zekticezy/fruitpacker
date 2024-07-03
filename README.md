@@ -4,6 +4,8 @@
 # Download Fruitpacker
 You can download **Fruitpacker** for Windows (*64 & 32Bit*) and macOS [here](https://zekkie.dev/fruitpacker.html).
 
+Upon download, extract the .zip and head to `dist\fruitpacker`. Open up `fruitpacker.exe`. Volià!
+
 # How Fruitpacker Works
 It's pretty simple - Setup might take a bit of time, but it'll all be worth it in the end.
 
