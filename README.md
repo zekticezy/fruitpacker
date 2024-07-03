@@ -22,5 +22,5 @@ Currently, Fruitpacker is only available in the languages I speak - **English** 
 | Language      | Status |
 | ----------- | ----------- |
 | English 🇺🇸      | 100%       |
-| Français 🇫🇷   | 100%       |
+| Français 🇫🇷   | In the works, coming with 1.0      |
 
