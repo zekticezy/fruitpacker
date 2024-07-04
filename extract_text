@@ -1,0 +1,48 @@
+import os
+import ast
+
+# Function to extract text labels from Python source code files
+def extract_text_labels(directory):
+    labels = {}
+
+    # Traverse through all Python files in the specified directory
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".py"):
+                file_path = os.path.join(root, file)
+                with open(file_path, "r", encoding="utf-8") as f:
+                    try:
+                        tree = ast.parse(f.read(), filename=file)
+                    except SyntaxError:
+                        continue
+
+                    for node in ast.walk(tree):
+                        if isinstance(node, ast.Str):
+                            label = node.s.strip()
+                            if label and label not in labels:
+                                labels[label] = ""
+
+    return labels
+
+# Function to write labels to a translation file
+def write_translation_file(labels, output_file):
+    with open(output_file, "w", encoding="utf-8") as f:
+        for label in sorted(labels.keys()):
+            f.write(f'"{label}" = "{labels[label]}"\n')
+
+# Main function to extract and write text labels
+def main(directory, output_file):
+    labels = extract_text_labels(directory)
+    write_translation_file(labels, output_file)
+    print(f"Extracted {len(labels)} labels to {output_file}")
+
+# Example usage:
+if __name__ == "__main__":
+    # Directory containing your Python source code files
+    source_directory = "."  # Replace with your actual directory path
+
+    # Output file for French translations
+    output_file = "fr.txt"
+
+    # Run the main function to extract and write labels
+    main(source_directory, output_file)

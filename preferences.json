@@ -1,1 +1,67 @@
-{"808s Folder": "C:/Users/swagman21/Desktop/FL Producer Shit/808s", "Hi-Hats Folder": "Not selected", "Open Hats Folder": "Not selected", "Claps Folder": "Not selected", "Vox Folder": "Not selected", "SFX Folder": "Not selected", "Samples Folder": "Not selected", "Kicks Folder": "Not selected", "Snares Folder": "Not selected", "Risers Folder": "Not selected", "Percs Folder": "Not selected", "One Shots Folder": "Not selected", "Fills Folder": "Not selected", "Crashes Folder": "Not selected", "Rim Shots Folder": "Not selected", "Chants Folder": "Not selected"}
+{
+    "language": "French",
+    "808s Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Hi-Hats Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Open Hats Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Claps Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Vox Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "SFX Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Samples Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Kicks Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Snares Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Risers Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Percs Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "One Shots Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Fills Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Crashes Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Rim Shots Folder": {
+        "path": "Not selected",
+        "tags": []
+    },
+    "Chants Folder": {
+        "path": "Not selected",
+        "tags": []
+    }
+}
