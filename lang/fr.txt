@@ -21,7 +21,6 @@
 "Add Custom Folder" = ""
 "Appearance" = ""
 "Authorization" = ""
-"Bearer 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" = ""
 "Chants Folder" = ""
 "Claps Folder" = ""
 "Compressed files" = ""

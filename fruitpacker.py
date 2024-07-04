@@ -84,11 +84,10 @@ dark_mode = False  # Initialize dark mode variable
 def check_for_updates():
     repo_owner = "your-github-username"
     repo_name = "your-repo-name"
-    api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases/latest"
-    headers = {'Authorization': 'Bearer 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'}
+    api_url = f"https://api.github.com/repos/zekticezy/fruitpacker/releases/latest"
 
     try:
-        response = requests.get(api_url, headers=headers)
+        response = requests.get(api_url)
         response.raise_for_status()
         latest_release = response.json()
         latest_version = latest_release['tag_name']
